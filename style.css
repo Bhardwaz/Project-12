@@ -318,3 +318,211 @@ body{
 .horizontal_line{
     width: 100%;
 }
+
+/* MEDIA QUERIES */
+@media all and (max-width:500px){
+    .header_container{
+        height: 180vw;  
+    }
+    .logo_container{
+        height: 10vh;
+        width: 5vw;
+        margin-top: 20px;
+        flex: 0 0 70%;
+    }
+    .logo_container img {
+        height: 55%;
+    }
+    .menu{
+        display: none;
+    }
+    .nav_btn{
+        flex-basis: 10%;
+        align-self: center;
+       
+    }
+    .header_img{
+        height: 50%;
+        width: 95%;
+    }
+    .header_text{
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .section3-leftSide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;        
+    }
+    .section3-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section2-leftImg{
+        width: 90%;
+    }
+    .section4-leftSide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .section4-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 1;
+    }
+    .section4-leftImg{
+        width: 90%;
+        order: 2;
+    }
+    .section5-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section5-leftImg{
+        width: 90%;
+    }
+    .about_team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .team_sub_heading{
+        text-align: center;
+    }
+    .person1_details ,.person2_details ,.person3_details{
+        height: 100px;
+        width: 100px;
+        border-radius:50%;
+        margin-top: -50px;
+    }
+    .details{
+        width: 100vw;
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 160px;
+    }
+    .person_1_detail{
+        transform: translateX(-5px);
+    }
+    .footer{
+        margin-top: 30px;
+    }
+   
+    
+    
+}
+
+
+@media all and (max-width:800px){
+    .header_container{
+        height: 180vw;  
+    }
+    .logo_container{
+        height: 10vh;
+        width: 5vw;
+        margin-top: 10px;
+        flex: 0 0 10%;
+    }
+    .logo_container img {
+        height: 55%;
+    }
+    .menu{
+       display: none;
+    }
+    .nav_btn{
+        margin-top: -100px;
+    }
+    .nav_btn:hover{
+        background-color: green;
+    }
+    .header_img{
+        height: 50%;
+        width: 95%;
+    }
+    .header_text{
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .section3-leftSide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;        
+    }
+    .section3-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section2-leftImg{
+        width: 90%;
+    }
+    .section4-leftSide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .section4-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 1;
+    }
+    .section4-leftImg{
+        width: 90%;
+        order: 2;
+    }
+    .section5-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section5-leftImg{
+        width: 90%;
+    }
+    .about_team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .team_sub_heading{
+        text-align: center;
+    }
+    .person1_details ,.person2_details ,.person3_details{
+        height: 100px;
+        width: 100px;
+        border-radius:50%;
+        margin-top: -50px;
+    }
+    .details{
+        width: 100vw;
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 160px;
+    }
+    .person_1_detail{
+        transform: translateX(-5px);
+    }
+    .footer{
+        margin-top: 30px;
+    }
+}
